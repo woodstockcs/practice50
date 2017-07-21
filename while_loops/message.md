@@ -17,6 +17,8 @@ int main(void)
     string s = "asTJhhJKikJswe hkij;sop /bCurSN;5PK0es";
 
     // TODO: write a while loop to print every third character in the string, and uncover the hidden message
+    
+    // all done!
     return 0;
 }
 ```
