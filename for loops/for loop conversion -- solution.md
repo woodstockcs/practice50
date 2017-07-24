@@ -1,12 +1,12 @@
 # For Loop Conversion
 
 ## Possible Solution
+```c
 #include <cs50.h>
 #include <ctype.h>
 #include <stdio.h>
 #include <string.h>
 
-```c
 int main (void)
 {
     for (int i = 0; i <= 15; i++)
