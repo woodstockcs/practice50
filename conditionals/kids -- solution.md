@@ -1,19 +1,17 @@
-# Percentages
+# Kids
 
 ## Possible Solution
 ```c
 #include <cs50.h>
 #include <stdio.h>
 
-int main(void)
+int main (void)
 {
-    // Prompt user for fraction, convert to %, print %
-    printf("non-negative numerator:");
-    float numerator = get_float();
-    printf("positive denominator:");
-    float denominator = get_float();
-    float fraction = numerator/denominator;
-    
-    printf("Fraction as a percent: %.2f%%\n", fraction);
+    printf("Average number of children per family in US: ");
+    int n = get_int();
+    if (n == 2)
+        printf("That is correct!\n");
+    else
+        printf("That is incorrect!\n");
 }
 ```
