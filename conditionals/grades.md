@@ -13,9 +13,9 @@ You got an A!
 You got a B!
 You got a C!
 You got a D!
-```c
+```
 
-Modify teh program such that if the user inputs the number 95, only the correct statement will print out:
+Modify the program such that if the user inputs the number 95, only the correct statement will print out:
 ```c
 jharvard@run.cs50.net (~): ./a.out
 Enter a valid grade: 95
