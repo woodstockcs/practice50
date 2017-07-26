@@ -9,7 +9,7 @@ Complete the following program that prompts the user to enter an alphabetical ch
 ```c
 jharvard@run.cs50.net (~): ./a.out
 Please enter an alphabetical character: Z
-Thanks for the uppercase letter!
+You printed an uppercase letter!
 ```
 
 ## Distribution Code
