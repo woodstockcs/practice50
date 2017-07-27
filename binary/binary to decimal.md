@@ -9,12 +9,12 @@ Write a program that takes a binary number as input and prints out that number i
 ```c
 jharvard@run.cs50.net (~): ./a.out
 Please enter a binary number: 101101
-Decimal number of 101101 is 45
+The decimal number of 101101 is 45
 
 ```
 
 ## Distribution Code
-Write out the definition for the function <code>bin_to_dec(long bin)</code>
+Write out the definition for the function <code>bin_to_dec(long long bin)</code>
 
 ```c
 #include <cs50.h>

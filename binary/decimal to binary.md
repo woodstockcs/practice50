@@ -9,7 +9,7 @@ Write a program that takes a positive decimal value as input and prints out that
 ```c
 jharvard@run.cs50.net (~): ./a.out
 Please enter a positive decimal value: 45
-101101
+The binary number of 45 is 101101
 ```
 
 ## Distribution Code
