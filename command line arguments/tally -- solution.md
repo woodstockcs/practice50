@@ -16,7 +16,7 @@ int main(int argc, string argv[])
         return 1;
     }
     
-    // tally the number of characters
+    // tally the number of characters, and print the final result
     int tally = 0;
     for (int i = 2; i < argc; i++)
     {
