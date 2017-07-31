@@ -4,7 +4,7 @@
 Loops
 
 ## Problem
-Rewrite the below code, initializing two arrays -- a 1-dimensional array of size 10 ,and a 2-dimensional array of size 30x30. For the 1-D array, please rewrite the current initialization using just 1 line (instead of 4). For the 2-D array, please initialize it such that the element at indexes i,j is of value i*j. Print both arrays, to test your code!
+Rewrite the below code, initializing two arrays -- a 1-dimensional array of size 10 ,and a 2-dimensional array of size 30x30. For the 1-D array, please rewrite the current initialization using just 1 line (instead of 4). For the 2-D array, please initialize it such that the element at indexes <code>i</code>, <code>j</code> is of value <code>i * j</code>. Print both arrays, to test your code!
 
 ## Distribution Code
 

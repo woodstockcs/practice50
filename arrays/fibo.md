@@ -1,4 +1,4 @@
-# Unrecursive Fibonacci
+# Non-recursive Fibonacci
 
 ## Prerequisites
 Loops
@@ -16,6 +16,13 @@ Calculating a series of Fibonacci numbers, in which any given number in the seri
 
 int main(void)
 {
-    // TODO
+    // declare the array, and store the first two values
+    int fibo[N];
+    fibo[0] = 0;
+    fibo[1] = 1;
+    
+    // TODO: calculate and store the next 23 values 
+    
+    // TODO: print the entire series
 }
 ```

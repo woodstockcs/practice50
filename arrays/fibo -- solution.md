@@ -1,4 +1,4 @@
-# Unrecursive Fibonacci
+# Non-recursive Fibonacci
 
 ## Possible Solution
 ```c
@@ -22,7 +22,7 @@ int main(void)
     printf("The first 25 numbers in the Fibonacci series are: \n");
     for (int i = 0; i < N; i++)
     {
-        printf("%d ", fibo[i]);
+        printf("%i ", fibo[i]);
     }
     printf("\n");
 }
