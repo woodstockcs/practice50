@@ -12,7 +12,7 @@ jharvard@run.cs50.net (~): ./a.out
 YES
 ```
 
-Tip: it might be easier to implement this <strong>iteratively</strong>, rather than <code>recursively</code>.
+Tip: it might be easier to implement this <strong>iteratively</strong>, rather than <strong>recursively</strong>.
 
 ## Distribution Code
 
