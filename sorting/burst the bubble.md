@@ -4,7 +4,7 @@
 None
 
 ## Problem
-The below implementation of Bubble sort always runs in $O(n^2)$, even if the initial array is already sorted! Try running the code several times with different inputs, to verify that this is indeed the case (the program will print the number of steps it took to sort the array). Add a couple of lines of code to fix this, using the trick learned in class -- such that, in cases where the given array is already sorted, the best runtime might be $O(n)$!
+The below implementation of Bubble sort always runs in $O(n<sup>2</sup>)$, even if the initial array is already sorted! Try running the code several times with different inputs, to verify that this is indeed the case (the program will print the number of steps it took to sort the array). Add a couple of lines of code to fix this, using the trick learned in class -- such that, in cases where the given array is already sorted, the best runtime might be O(n)!
 
 ## Distribution Code
 ```c
