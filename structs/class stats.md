@@ -4,7 +4,7 @@
 Loops
 
 ## Problem
-The below program has a structure called <code>class</code> defined, to make it easier to calculate various statistics about the classes you take in a given semester. In the below, please take in input from user for various parameters for all of his classes in a given semester (see first 5 <code>TODO</code>s). Then, calculate and print the average overall rank, professor rank, and difficulty of the classes the user input for the semester (under teh 6th and last <code>TODO</code>).
+The below program has a structure called <code>class</code> defined, to make it easier to calculate various statistics about the classes you take in a given semester. In the below, please take in input from user for various parameters for all of his classes in a given semester (see first 5 <code>TODO</code>s). Then, calculate and print the average overall rank, professor rank, and difficulty of the classes the user input for the semester (under the 6th and last <code>TODO</code>).
 
 ## Distribution Code
 
