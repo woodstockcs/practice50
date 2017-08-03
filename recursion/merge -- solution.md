@@ -1,12 +1,6 @@
 # Fix Merge
 
-## Prerequisites
-Loops; Functions; Arrays.
-
-## Problem
-The below implementation of <code>merge_sort</code> is missing! Following what you learned in class, implement the algorithm so that it works properly. You have access to the function <code>merge</code>, which has been implemented for you -- make sure you pass in the correct arguments. You shouldn't need more than 4 or 5 lines of code. You can test your implementation with the following arrays: <code>a = {2, 17, 4, 0, 23, 6}</code>, <code>a = {6, 5, 4, 3, 2}</code>, <code>a = {56, 0, 14, 0, 3, 35, 38, 8, 10}</code>.
-
-## Distribution Code
+## Possible Solution
 ```c
 #include <cs50.h>
 #include <stdio.h>
@@ -47,7 +41,13 @@ int main (void)
 // incomplete implementation of merge sort
 void merge_sort(int a[], int start, int end)
 {    
-    // TODO: complete the merge function, making use of the helper function 'merge'
+    if (end > start)
+    {
+        int middle = (start + end) / 2;
+        merge_sort(a, start, middle);
+        merge_sort(a, middle + 1, end);
+        merge(a, start, middle, middle + 1, end);
+    }
 }
 
 void merge(int a[], int start, int mid, int mid_1, int end)
