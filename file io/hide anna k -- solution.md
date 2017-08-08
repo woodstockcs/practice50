@@ -1,10 +1,12 @@
-/*************************************************************************
- * cp.c
- *
- * Mimics the cp command
- ************************************************************************/
+# Hide Anna K.
 
+## Possible Solution
+```c
 #include <stdio.h>
+#include <cs50.h>
+
+int encrypt(int c);
+int decrypt(int c);
 
 int main(int argc, char* argv[])
 {
@@ -38,10 +40,21 @@ int main(int argc, char* argv[])
     {
         // write the character to the destination file!
         // could also use fprintf(dest, "%c", c)
-        putc(c, dest);
+        putc(encrypt(c), dest);
     }
 
     // you leak memory if you forget to close!
     fclose(source);
     fclose(dest);
 }
+
+int encrypt(int c)
+{
+    return c + 10;
+}
+
+int decrypt(int c)
+{
+    return c - 10;
+}
+```
