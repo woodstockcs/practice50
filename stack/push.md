@@ -4,7 +4,7 @@
 Loops; Functions; Arrays; Structures
 
 ## Problem
-In the below code, a stack <code>struct</code> has been implemented for you. It contains an <code>array</code> of size <code>CAPACITY</code> and an array of strings. Implement the <code>push()</code> function, per the specification below, which will put a new element into the stack onto the "top" of the data structure so that it will be retrived prior to the elements
+In the below code, a stack <code>struct</code> has been implemented for you. It contains an <code>array</code> of size <code>CAPACITY</code> and an int indicating the current number of elements in the data structure. Implement the <code>push()</code> function, per the specification below, which will put a new element into the stack onto the "top" of the data structure so that it will be retrived prior to the elements
 already in the stack (unless the stack is already at CAPACITY). The <code>main</code> function that will be testing your implementation has already been written for you.
 
 Expected output:
