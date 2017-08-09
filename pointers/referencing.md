@@ -14,6 +14,7 @@ The final value is: 6.00
 Hint: recall that <code>a[i]</code> is treated by the compiler exactly like this <code>*(a + i)</code>
 
 ## Distribution Code
+```c
 #include <stdio.h>
 #include <cs50.h>
 
