@@ -11,8 +11,6 @@ x is 4.00, y is 3.00.
 The final value is: 6.00
 ```
 
-Hint: recall that <code>a[i]</code> is treated by the compiler exactly like this <code>*(a + i)</code>
-
 ## Distribution Code
 ```c
 #include <stdio.h>
