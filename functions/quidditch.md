@@ -8,7 +8,7 @@ You want to calculate the final score for a team that has just participated in a
 
 Recall that each 'goal' in quidditch is worth 10 points, and that catching the snitch is worth 150 points.
 
-You can copy/paste the Distribution Code into a new file in the cs50 IDE, or use the command `wget https://raw.githubusercontent.com/woodstockcs/practice50/master/functions/quidditch.c`
+To import the Distribution Code as a new file in the cs50 IDE, or use the command `wget https://raw.githubusercontent.com/woodstockcs/practice50/master/functions/quidditch.c`
 
 ## Distribution Code
 ```c
