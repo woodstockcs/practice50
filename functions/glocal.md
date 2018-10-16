@@ -6,6 +6,10 @@ None
 ## Problem
 The below code takes input from the user, and passes it through to a function that is supposed to increase its value by 5. However, it looks like despite the function, <code>add_5</code>, seemingly adding 5 to the value of <code>x</code> -- the value of x doesn't change! Run the code once or twice to see what happens, and update the code in <code>add_5</code> and <code>main</code> to correctly update the value of x.
 
+To import the Distribution Code as a new file in the cs50 IDE, `cd` to the directory where you want the file then use the command
+
+```wget https://raw.githubusercontent.com/woodstockcs/practice50/master/functions/glocal.c```
+
 ## Distribution Code
 ```c
 
